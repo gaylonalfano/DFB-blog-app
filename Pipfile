@@ -4,11 +4,11 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-black = "*"
 autopep8 = "*"
 
 [packages]
 django = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.7"
